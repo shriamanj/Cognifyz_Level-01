@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1 id="heading">Welcome to My Simple Webpage</h1>
+        <p>This is a simple webpage with a heading, paragraph, image, form, and navigation menu.</p>
+    </header>
+    
+    <img src="https://picsum.photos/id/15/367/267" alt="A beautiful scenery" class="main-image">
+
+    <section class="form-section">
+        <form action="#" method="post">
+            <label for="inputField">Enter something:</label>
+            <input type="text" id="inputField" name="inputField" placeholder="Write Here">
+            <button id="btn" type="submit">Submit</button>
+        </form>
+    </section>
+
+    <div class="calc">
+    <div class="calculator">
+        <h2>Simple Calculator</h2>
+        <input type="number" id="number1" placeholder="Enter first number">
+        <input type="number" id="number2" placeholder="Enter second number">
+        <button id="addButton">Add</button>
+        <p id="result">Result : </p>
+    </div>
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
